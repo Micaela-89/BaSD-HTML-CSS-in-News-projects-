@@ -1,4 +1,4 @@
-# 'BECOME A QA AUTOMATION' - WEEK 1 & 2 PROJECT  - HTML & CSS.'
+# 'Become a Software Developer' - WEEK 1 & 2 PROJECT  - HTML & CSS.'
 ## Description
 
 The objective of the 1st week project is to create a copy of the HTML structure of a chosen article. Then, on week 2 the objective is to do the same with a new article selected but including the CSS styles to make the page look identical to the original article.
