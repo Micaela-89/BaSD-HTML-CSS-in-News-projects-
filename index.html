@@ -4,42 +4,56 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/styles.css">
         <title>
             Nona Gaprindashvili sues Netflix for defaming her in ‘The Queen’s Gambit’ - The Washington Post
         </title>
     </head>
     <body>
         <header>
-            <div class="subhead"><a href="https://www.washingtonpost.com/morning-mix/">Morning Mix</a></div>
+            <div class="artHeader">
+                <a href="https://www.washingtonpost.com/morning-mix/">Morning Mix</a>
+            </div>
             <h1 id="mainTitle">
                 Netflix’s ‘The Queen’s Gambit’ said the first female grandmaster ‘never faced men.’ Now she’s suing.
             </h1>
-            <span>
-                <button class="listenBtn" title="Headphones"><img src='images/headphones.PNG' width="30" height="30"></button>
-                <p> <b>Listen to article</b> 3 min</p>
-                <audio controls>
-                    <source src="audio/article.ogg" type="audio/ogg">
-                    Your browser does not support the audio element.
-                </audio>
-            </span>
-            <div class="images">
-                <img id="image1" src="images/image1.jpg" alt="image1">
-                <div class="caption">
-                    <p>
-                        A photo of Nona Gaprindashvili is displayed at the Tbilisi Chess Palace and Alpine Club in the nation of Georgia.
-                        (Justyna Mielnikiewicz /MAPS for The Washington Post)
-                    </p>
-                </div>
-                <p> By <a href="https://www.washingtonpost.com/people/julian-mark/">Julian Mark</a></p>
-                <p> <time datetime="021-09-17 7:52">September 17, 2021 at 7:52 a.m. EDT</time></p>
-            </div>
-            <div class="icons">
-                <button class="boxButton"><img src='images/boxBtn.png' width="30" height="30"></button>
-                <button class="shareButton" title="Share"> <img src='images/shareBtn.PNG'width="30" height="30"></button>
-                <button class="commentButton" title="Comment"><img src='images/commentBtn.PNG'width="30" height="30"></button>
+            <div class="belowTitle">
+                <span>
+                    <button class="listenBtn" title="Headphones"><img src='images/headphones.PNG' width="30" height="30"></button>
+                    <p> <b>Listen to article</b> 3 min</p>
+                    <audio controls><source src="audio/article.ogg" type="audio/ogg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </span>
             </div>
         </header>
         <section>
+            <div class="images">
+                <img id="img1" src="images/image1.jpg" alt="image1">
+            </div>
+            <div>
+                <caption>
+                    A photo of Nona Gaprindashvili is displayed at the Tbilisi Chess Palace and Alpine Club in the nation of Georgia.
+                    (Justyna Mielnikiewicz /MAPS for The Washington Post)
+                </caption>
+            </div>
+            <h2 class="subtitle">
+                By 
+                <span>
+                    <a href="https://www.washingtonpost.com/people/julian-mark/">Julian Mark</a>
+                </span>
+            </h2>
+            <div class="belowTitle">
+                <time class="date" datetime="021-09-17 7:52">September 17, 2021 at 7:52 a.m. EDT</time>
+                <div class="buttons">
+                    <button class="boxButton"><img src='images/boxBtn.png'width="30" height="30"></button>
+                    <button class="shareButton" title="Share"> <img src='images/shareBtn.PNG'width="30" height="30"></button>
+                    <button class="commentButton" title="Comment"><img src='images/commentBtn.PNG'width="30" height="30"></button>
+                </div>
+            </div>
+        </section>
+        <section id="article">
             <div>
                 <p>
                     In 1968, Nona Gaprindashvili was the only female chess player to enter the International Tournament in Gothenburg, 
@@ -92,10 +106,12 @@
                     record surge in users on Chess.com</a>, a popular online game platform, and it reopened a debate about the sexism that
                     continues to pervade the sport.
                 </p>
+                <p>
                     But before “The Queen’s Gambit” — and even the eponymous 1983 novel by Walter Tevis — there was Nona Gaprindashvili. Born
                     in Georgia in 1941, Gaprindashvili began playing professional chess when she was 13. At 20, she became the women’s world 
                     champion, a title she successfully defended for the better part of two decades. Georgian female chess players continue to 
                     follow in her footsteps.
+                </p>
                 <p>
                     [<a href="https://www.washingtonpost.com/world/europe/georgia-chess-queens-gambit/2020/12/12/f337ee4e-3499-11eb-9699-00d311f13d2d_story.html">
                         Georgian women ruled chess in the Soviet era. A new generation chases the same ‘Queen’s Gambit’ glory.</a>]
@@ -150,19 +166,23 @@
                     Gift article
                 </button>
             </div>
-            <span class="author">
+            <div class="belowTitle">
                 <img src="images/WPicon.PNG" width="60" height="60">
-                <p> By
-                <a href="https://www.washingtonpost.com/people/julian-mark/">Julian  Mark</a>
-                </p>
-                <small>
-                    Julian Mark is a reporter on The Washington Post's Morning Mix team. Before joining The Post,
-                    he covered housing and policing for Mission Local in San Francisco.  
-                </small>
-                <img src="images/twitter.PNG" width="16" height="16">
-                <a href="https://twitter.com/@badjujusf">Twitter</a>
-            </span>
-            <hr>
+                <h3 class="subtitle">
+                    By 
+                    <span>
+                        <a href="https://www.washingtonpost.com/people/julian-mark/">Julian Mark</a>
+                    </span>
+                </h3>
+                <span>
+                    <small>
+                        Julian Mark is a reporter on The Washington Post's Morning Mix team. Before joining The Post,
+                        he covered housing and policing for Mission Local in San Francisco.  
+                    </small>
+                    <img src="images/twitter.PNG" width="16" height="16">
+                    <a href="https://twitter.com/@badjujusf">Twitter</a>
+                </span>
+            </div>
         </footer>
     </body>
 </html>
